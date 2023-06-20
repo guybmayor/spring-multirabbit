@@ -4,9 +4,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>itsmine</groupId>
+        <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.0.0</version>
+        <version>3.0.4</version>
         <relativePath />
     </parent>
 
@@ -20,7 +20,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.free-now.multirabbit</groupId>
+            <groupId>itsmine</groupId>
             <artifactId>spring-multirabbit</artifactId>
             <version>${project.version}</version>
         </dependency>
