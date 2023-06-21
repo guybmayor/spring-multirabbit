@@ -167,4 +167,17 @@
             </snapshots>
         </repository>
     </repositories>
+
+    <distributionManagement>
+        <repository>
+            <id>ITsMine-SaaS</id>
+            <url>https://pkgs.dev.azure.com/ITsMine-SaaS/_packaging/ITsMine-SaaS/maven/v1</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </distributionManagement>
 </project>
